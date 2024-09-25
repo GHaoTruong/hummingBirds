@@ -1,0 +1,255 @@
+:root {
+  --white-color: #fff9e9;
+  --white-green-color: #dfeedb;
+  --black-color: #191919;
+  --green-color: #005335;
+
+  --common-font: Playfair Display;
+  --h2-size: 36px;
+  --h3-size: 24px;
+  --p-size: 14px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--common-font);
+}
+/* navbar */
+.navbar img {
+  max-width: 48px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.navbar a {
+  font-size: 24px;
+  font-family: Playfair Display;
+  font-weight: 400;
+}
+
+/* End of navbar */
+
+/* Hero */
+.hero {
+  height: 1210px;
+  background-image: url(../imgs/website/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero_text {
+  padding-top: 444px;
+}
+.hero_text h1 {
+  font-size: 144px;
+  line-height: normal;
+  letter-spacing: 12.16px;
+  font-weight: 700;
+  color: white;
+}
+.hero_text p {
+  color: white;
+}
+/* End of Hero */
+
+/*Important section*/
+.important {
+  min-height: 256px;
+  margin: auto;
+  background-color: var(--white-color);
+}
+.important h2 {
+  color: var(--green-color);
+  font-weight: 700;
+  letter-spacing: 2.88px;
+}
+.important p {
+  width: 584px;
+  font-weight: 400;
+  text-align: center;
+  word-break: keep-all;
+  letter-spacing: 1.12px;
+  line-height: normal;
+  color: var(--black-color);
+}
+/* end of Important section*/
+
+/* spirits section*/
+.spirit_animal {
+  background-color: var(--white-green-color);
+  padding-top: 24px;
+  height: 649px;
+}
+
+.spirit_animal h2 {
+  font-size: var(--h2-size);
+  color: var(--green-color);
+  font-weight: 700;
+  letter-spacing: 2.72px;
+}
+
+#spirit_img img {
+  width: 277px;
+  height: 192px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+#spirit_img {
+  padding-top: 32px;
+}
+
+.spirit_animal_text {
+  padding-top: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.spirit_animal_text p {
+  color: #04583a;
+}
+/* spirits section*/
+
+/*life cycle section*/
+.life_cycle {
+  background-color: var(--black-color);
+  color: var(--white-green-color);
+}
+.life_cycle h2 {
+  font-size: var(--h2-size);
+  font-weight: 600;
+}
+.life_cycle h3 {
+  font-size: var(--h3-size);
+  font-weight: 700;
+}
+.life_cycle p {
+  max-width: 282px;
+}
+.life_cycle p > span {
+  font-weight: 700;
+}
+#life_cycle_img {
+  width: 80px;
+  height: 80px;
+}
+
+/*end of life cycle section*/
+
+/*Structure*/
+.structure {
+  background-color: var(--white-color);
+  padding: 32px;
+  padding-bottom: 208px;
+  color: var(--black-color);
+}
+.structure h2 {
+  font-size: var(--h2-size);
+  font-weight: 700;
+  letter-spacing: 2.88px;
+}
+
+.structure p {
+  font-size: var(--p-size);
+  font-weight: 400;
+  letter-spacing: 1.12px;
+  width: 425px;
+  text-align: center;
+}
+
+/*species*/
+.species {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  padding-bottom: 84px;
+}
+.species h3 {
+  font-weight: 700;
+  letter-spacing: 1.92px;
+  font-size: 24px;
+}
+
+/*habitats*/
+.habitats{
+    background-color: var(--white-green-color);
+    padding: 32px;
+}
+.habitats h2{
+    font-size: var(--h2-size);
+    font-weight: 700;
+    color: var(--green-color);
+}
+.habitats p{
+    font-size: var(--p-size);
+    font-weight: 500;
+}
+
+/*Mirgration*/
+.migration{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 32px;
+}
+.migration h2{
+    font-weight: 700;
+    font-size: var(--h2-size);
+}
+.migration h3{
+    font-weight: 700;
+    font-size: var(--h3-size);
+}
+
+/*populations*/
+.populations{
+    background-color: var(--white-color);
+    padding: 32px;
+}
+.populations h2{
+    font-weight: 700;
+    font-size: var(--h2-size);
+}
+.populations h3{
+    font-weight: 700;
+    font-size: var(--h3-size);
+}
+
+/* footer */
+.footer{
+    background-color: var(--black-color);
+    padding: 32px;
+
+}
+.footer ul{
+    list-style-type: none;
+
+}
+.footer li{
+    display: inline;
+    padding: 24px;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer a:hover{
+    color: var(--green-color);
+}
+
+.footer img{
+    width: 48px;
+    height: auto;
+}
+.footer p{
+    color: var(--white-color);
+
+}
